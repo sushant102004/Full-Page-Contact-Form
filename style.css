@@ -22,6 +22,7 @@ html {
     margin: auto;
     margin-top: 6rem;
     padding: 0.4rem;
+    display: flex;
 }
 
 .leftArea{
@@ -45,8 +46,6 @@ html {
     font-size: 1rem;
 }
 
-
-
 .infoLink{
     display: flex;
 }
@@ -69,4 +68,20 @@ html {
     padding-right: 1.1rem;
     padding-top: 9.5rem;
     font-size: 1.3rem;
+}
+
+input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: #606060;
+}
+
+input:focus{
+    outline: none;
+}
+
+.inputContainer p{
+    color: #3C3C3B;
 }
