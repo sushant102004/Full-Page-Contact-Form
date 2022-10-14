@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #F9F9FB;
+}
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+.topText{
+    text-align: center;
+}
+
+.topText h1{
+    padding-top: 2rem;
+    font-size: 2.5rem;
+    color: #262625;
+}
+
+.topText p{
+    padding-top: 0.5rem;
+    font-size: 1.2rem;
+    color: #73726e;
+}
+
+.mainCard{
+    width: 80rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin: auto;
+    margin-top: 2rem;
+    padding: 0.4rem;
+}
+
+.leftArea{
+    height: 31rem;
+    width: 25rem;
+    background-color: #3E2093;
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+#contactText{
+    color: #f0f3f7;
+    /* transform: scale(); */
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+
+#desText{
+    color: #D4D0CF;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+
+
+.infoLink{
+    display: flex;
+}
+
+.infoLink i {
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    color: #E3DFDE;
+    margin-right: 1rem;
+}
+
+.infoLink p{
+    margin-top: 3rem;
+    font-size: 1rem;
+    color: #E3DFDE;
+}
+
+.socialLinks i{
+    color: #E3DFDE;
+    padding-right: 1.1rem;
+    padding-top: 9.5rem;
+    font-size: 1.3rem;
+}
