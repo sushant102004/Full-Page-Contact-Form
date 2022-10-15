@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
 * {
   margin: 0px;
   padding: 0px;
@@ -8,7 +9,7 @@
 body {
   margin: 0px;
   padding: 0px;
-  background-color: #F9F9FB;
+  background-color: #FEDEDE;
 }
 html {
   margin: 0px;
@@ -16,7 +17,7 @@ html {
 }
 
 .mainCard{
-    width: 80rem;
+    width: 75rem;
     background-color: white;
     border-radius: 1rem;
     margin: auto;
@@ -70,18 +71,123 @@ html {
     font-size: 1.3rem;
 }
 
-input{
+
+.rowOne input{
     border-top-style: hidden;
     border-right-style: hidden;
     border-left-style: hidden;
     border-bottom-style: groove;
-    border-bottom-color: #606060;
+    border-bottom-color: #E3DFDE;
+    padding-top: 1rem;
+    width: 19rem;
+}
+
+.rowTwo input{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: #E3DFDE;
+    padding-top: 1rem;
+    width: 19rem;
+}
+
+input::placeholder{
+    font-size: 1rem;
 }
 
 input:focus{
     outline: none;
 }
 
+.inputContainer{
+    padding: 2rem;
+}
+
 .inputContainer p{
-    color: #3C3C3B;
+    /* color: #2e2e2e; */
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.rowOne{
+    display: flex;
+}
+
+.rowTwo{
+    display: flex;
+    margin-top: -1.5rem;
+}
+
+#teamSelectionText{
+    padding-left: 2rem;
+    padding-top: 0.5rem;
+    font-weight: 600;
+}
+
+.contactCategorySelection{
+    display: flex;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    line-height: 1rem;
+}
+
+.contactCategorySelection input {
+    margin-right: 0.3rem;
+}
+
+.contactCategorySelection p{
+    margin-right: 2rem;
+    font-size: 1.1rem;
+}
+
+input[type = "radio"]{
+    width: 1rem;
+    height: 1rem;
+}
+
+.messageContainer{
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.messageContainer p{
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+textarea{
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    border-bottom-color: #E3DFDE;
+    padding-top: 1rem;
+    width: 100%;
+    height: 6rem;
+}
+
+textarea::placeholder{
+    font-size: 1rem;
+}
+
+.submitContainer{
+    width: 100%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.submitButton{
+    width: 8rem;
+    height: 3rem;
+    background-color: #3E2093;
+    border-radius: 7px;
+    margin-left: auto;
+    margin-right: 4rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #f0f3f7;
+    font-size: 0.9rem;
 }

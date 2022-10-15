@@ -6,7 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Form</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
     <div class="mainContainer">
@@ -23,7 +26,7 @@
 
           <div class="infoLink" id="phoneContainer">
             <i class="fa fa-envelope"></i>
-            <p>sushant.coding@gmail.com</p>
+            <p>sushant.dhiman9812@gmail.com</p>
           </div>
 
           <div class="infoLink" id="phoneContainer">
@@ -40,10 +43,47 @@
         </div>
 
         <div class="rightArea">
+
+          <div class="rowOne">
             <div class="inputContainer">
-                <p>First Name</p>
-                <input type="text" placeholder="Sushant Dhiman"/>
+              <p>First Name</p>
+              <input type="text" placeholder="Sushant" />
             </div>
+            <div class="inputContainer">
+              <p>Last Name</p>
+              <input type="text" placeholder="Dhiman" />
+            </div>
+          </div>
+
+          <div class="rowTwo">
+            <div class="inputContainer">
+              <p>Mail</p>
+              <input type="text" placeholder="sushant098123@gmail.com" />
+            </div>
+            <div class="inputContainer">
+              <p>Phone</p>
+              <input type="text" placeholder="+91 8813951989" />
+            </div>
+          </div>
+
+          <p id="teamSelectionText">Which team you want to reach out?</p>
+          <div class="contactCategorySelection">
+            <input type="radio"/><p>Sales</p>
+            <input type="radio"/><p>Technical</p>
+            <input type="radio"/><p>Social Media</p>
+            <input type="radio"/><p>Other</p>
+          </div>
+          
+          <div class="messageContainer">
+            <p>Message</p>
+            <textarea placeholder="Write your message here...."></textarea>
+          </div>
+
+          <div class="submitContainer">
+            <div class="submitButton">
+              Send Message
+            </div>
+          </div>
         </div>
       </div>
     </div>
